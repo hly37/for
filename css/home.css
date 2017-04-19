@@ -1,0 +1,101 @@
+.center-box{
+	width: 1190px;
+	margin: 0 auto;
+} 
+.head{
+	background: #ac0c14;
+}
+.head a{
+    display: block;
+	height: 80px;
+	background:url(../img/tou.jpg);
+}
+.nav-box{
+	background-color: #e3e4e5;
+    height: 30px;
+    border-bottom: 1px solid #dddddd;    
+}
+.location{
+	width: 257px;
+}
+.location>li{
+	width: 57px;
+	height: 29px; 
+	border:1px solid #e3e4e5;
+	border-bottom: none;
+	color: #999;
+	position: relative;
+}
+
+.location>li:hover{
+	background: #ffffff;
+    border:1px solid #ccc;
+    border-bottom: none;
+
+}
+/*遮住上面边框*/
+.location>li:hover .location-list{
+	display: block;
+}
+.location>li:hover:after{
+	content: "";
+	width: 57px;
+	height: 1px;
+	background: #FFFFFF;
+	position: absolute;
+	left: 0;
+	top: 29px;
+	z-index: 100;
+}
+.words-box{
+	width: 44.5px;
+	margin: 2px auto 0;
+}
+
+.words-box{
+	width: 57px;
+	margin: 2px auto 0;
+}
+.words-box .iconfont{
+	color: #f10215;
+}
+/*定位列表*/
+.location-list{
+	position: absolute;
+	width: 320px;
+	height: 215px;
+	border: 1px solid #ccc;
+	background: #fff;
+    left: -1px;
+    top: 29px;
+    padding: 10px;
+    display: none;
+  
+}
+/*撑开四周空隙*/
+.location-list{
+	padding: 10px;
+
+}
+.location-list li{
+	width: 52px;
+	height: 23px;
+	float: left;
+	margin: 2px 0 6px 12px ;
+	text-align: center;
+	/*background:yellow;*/
+}
+.location-list li a{
+	color: #999;
+	float: left;
+	display: block;
+	height: 100%;
+	line-height: 23px;
+}
+/*放上去会变色*/
+.location-list li a:hover{
+	background: #f4f4f4;
+	color: #
+
+
+}
